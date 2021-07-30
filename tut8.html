@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+
+</head>
+<body style="background-color: royalblue;">
+    <h2>this is html forms</h2>
+    <!--backned just a empty thing here-->
+    <form action="backned.php">
+        <label for="name"></label>
+     <div>  name:<input type ="text"name="my name"></div>
+       <div> role:<input type ="text"name="my role"></div>    
+       <div> email:<input type ="email" name="my email"></div> 
+       <br>   
+       <div>
+           date:<input type="date"name="my date">
+        </div>
+        <br>
+        <div>
+            bonus:<input type="number" name="my bonus">
+        </div>
+        <div>
+            are you elegible?<input type="checkbox" name="my eligibility">        
+        </div>
+        gender:male <input type="radio"name="my gender"> gender:female <input type="radio"name="my gender">
+       <div> write about yourself:<br><textarea name="my text"cols="100" rows="10"></textarea></div>
+       <div>
+           <label for="car"></label>
+           <select name="my car"id="car">
+           <option value="indica">indica</option>
+           <option value="swift">swift</option>
+           </select>
+       </div>
+       <br>
+        <input type="submit"name="submit now">
+        <input type="reset"name= "resetnow">
+    </form>
+</body>
+</html>
